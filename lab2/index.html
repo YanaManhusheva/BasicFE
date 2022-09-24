@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Yana Manhusheva`s lab2." />
+    <meta
+      name="keywords"
+      content="Yana Manhusheva IS-02, lab2, Basic Front-end"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Manhusheva Y.O. IS-02. Lab2. Variant 77</title>
+    <style>
+      table,
+      tr,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      .table {
+        margin: 50px auto;
+        min-width: 700px;
+        min-height: 100px;
+      }
+      tr:first-child {
+        background-color: #778f8f;
+        color: #ffa069;
+      }
+      tr:first-child:hover {
+        color: #778f8f;
+        background-color: #ffa069;
+      }
+      tr:nth-child(2) {
+        background-color: #f5f577;
+        color: #6824ad;
+      }
+      tr:nth-child(2):hover {
+        color: #f5f577;
+        background-color: #6824ad;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="task1">
+      <table class="table">
+        <tr class="table__first-row">
+          <td rowspan="2" colspan="2">Manhusheva</td>
+          <td width="20%">Yana</td>
+          <td width="20%">Oleksandrivna</td>
+        </tr>
+        <tr class="table__second-row">
+          <td width="20%">IS-02, LAB2</td>
+          <td width="20%">Variant 77</td>
+        </tr>
+        <tr class="table__third-row">
+          <td colspan="2" width="20%">&nbsp</td>
+          <td width="20%">&nbsp</td>
+          <td rowspan="2" width="20%"></td>
+        </tr>
+        <tr class="table__fourth-row">
+          <td width="20%">&nbsp</td>
+          <td width="20%">&nbsp</td>
+          <td width="20%">&nbsp</td>
+        </tr>
+      </table>
+    </div>
+    <div class="task2">
+      <p class="task2__desc">Using Position</p>
+      <div class="clock clock-position">
+        <div class="clock__circles">
+          <div class="clock__circle horizon-position"></div>
+          <div class="clock__circle vertical-position"></div>
+          <div class="clock__circle horizon-position"></div>
+          <div class="clock__circle vertical-position"></div>
+        </div>
+        <div class="clock__hands">
+          <div class="clock__hand clock__hand-position"></div>
+          <div class="clock__hand clock__hand-position"></div>
+        </div>
+      </div>
+      <p class="task2__desc">Using Transform</p>
+      <div class="clock clock-transform">
+        <div class="clock__circles">
+          <div class="clock__circle horizon-transform"></div>
+          <div class="clock__circle vertical-transform"></div>
+          <div class="clock__circle horizon-transform"></div>
+          <div class="clock__circle vertical-transform"></div>
+        </div>
+        <div class="clock__hands">
+          <div class="clock__hand clock__hand-transform"></div>
+          <div class="clock__hand clock__hand-transform"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
