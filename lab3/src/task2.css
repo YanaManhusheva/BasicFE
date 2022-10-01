@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 800px;
+  background-color: #bfbfbf;
+  padding: 30px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.task-text {
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
+.header__text {
+  background-color: #70a7df;
+  line-height: 3;
+}
+
+.main__inner {
+  display: flex;
+  max-height: 300px;
+  line-height: 10;
+}
+
+.main__img {
+  width: 70%;
+  background-color: #bce68b;
+}
+
+.main__text {
+  width: 30%;
+  background-color: #93b071;
+}
+
+.footer__img {
+  min-height: 170px;
+  background-color: #fac0f6;
+  line-height: 3;
+}
