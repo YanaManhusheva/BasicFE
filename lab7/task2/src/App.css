@@ -1,0 +1,30 @@
+.App {
+  background-color: #101010;
+  color: #ffffff;
+}
+.inner_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.GoodsCard {
+  width: 400px;
+  text-align: center;
+  border: 1px solid #2225a2;
+  margin: 10px;
+}
+
+.good_img {
+  height: 200px;
+}
+
+.good_name,
+.good_price {
+  font-size: 22px;
+  margin: 15px 0 0;
+}
+.good_price {
+  font-size: 20px;
+  margin: 15px 0;
+}

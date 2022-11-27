@@ -1,0 +1,13 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image__buttons {
+  margin: 10px 0 5px;
+}
+
+.image__msg {
+  color: red;
+  font-size: 18px;
+}
