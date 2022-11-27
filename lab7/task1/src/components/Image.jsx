@@ -4,23 +4,24 @@ import "../App.css";
 
 export default function Image() {
   const [imageSize, setImageSize] = useState(600);
-  const [imageDisplay, setImageDisplay] = useState("block");
   const [message, setMessage] = useState("");
+  const [isVisible, setVisible] = useState(false);
 
   function addImageHandler() {
+    console.log(isVisible);
     setMessage("");
-    if (imageDisplay === "block") {
+    if (isVisible) {
       setMessage("The image is already visible");
     } else {
-      setImageDisplay("block");
+      setVisible(true);
     }
   }
   function removeImageHandler() {
     setMessage("");
-    if (imageDisplay === "none") {
+    if (!isVisible) {
       setMessage("The image is already unvisible");
     } else {
-      setImageDisplay("none");
+      setVisible(false);
     }
   }
   function increaseHandler() {
@@ -41,12 +42,15 @@ export default function Image() {
     }
   }
   return (
-    <div className="Image">
-      <img
-        src={imagePath}
-        alt="town image"
-        style={{ width: imageSize + "px", display: imageDisplay }}
-      />
+    <div className="Image2">
+      {isVisible && (
+        <img
+          src={imagePath}
+          alt="town image"
+          style={{ width: imageSize + "px" }}
+        />
+      )}
+
       <div className="image__buttons">
         <button onClick={addImageHandler}>Add</button>
         <button onClick={increaseHandler}>Increase</button>
