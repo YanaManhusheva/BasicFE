@@ -46,7 +46,7 @@ export default function Image() {
       {isVisible && (
         <img
           src={imagePath}
-          alt="town image"
+          alt="hometown view"
           style={{ width: imageSize + "px" }}
         />
       )}
