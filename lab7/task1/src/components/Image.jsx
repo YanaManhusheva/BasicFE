@@ -46,13 +46,14 @@ export default function Image() {
       {isVisible && (
         <img
           src={imagePath}
-          alt="hometown view"
+          alt="town view"
           style={{ width: imageSize + "px" }}
         />
       )}
 
       <div className="image__buttons">
         <button onClick={addImageHandler}>Add</button>
+
         <button onClick={increaseHandler}>Increase</button>
         <button onClick={decreaseHandler}>Decrease</button>
         <button onClick={removeImageHandler}>Remove</button>
