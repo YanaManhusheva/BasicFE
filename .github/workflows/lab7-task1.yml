@@ -31,4 +31,4 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./lab7/task1/build
-          destination_dir: ./lab7/task1
+          destination_dir: ./lab7/site1
