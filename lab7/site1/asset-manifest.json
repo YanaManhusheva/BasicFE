@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/BasicFE/lab7/site1/static/css/main.ccb67a90.css",
+    "main.js": "/BasicFE/lab7/site1/static/js/main.f7185df6.js",
+    "static/media/Ratush-01.jpg": "/BasicFE/lab7/site1/static/media/Ratush-01.94efa9cfe861183d6976.jpg",
+    "index.html": "/BasicFE/lab7/site1/index.html",
+    "main.ccb67a90.css.map": "/BasicFE/lab7/site1/static/css/main.ccb67a90.css.map",
+    "main.f7185df6.js.map": "/BasicFE/lab7/site1/static/js/main.f7185df6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccb67a90.css",
+    "static/js/main.f7185df6.js"
+  ]
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.ccb67a90.css","mappings":"AAAA,KAEE,aAAc,CADd,gBAEF,CAEA,gBACE,iBACF,CAEA,YACE,SAAU,CACV,cACF","sources":["App.css"],"sourcesContent":[".App {\n  max-width: 1200px;\n  margin: 0 auto;\n}\n\n.image__buttons {\n  margin: 10px 0 5px;\n}\n\n.image__msg {\n  color: red;\n  font-size: 18px;\n}\n"],"names":[],"sourceRoot":""}
